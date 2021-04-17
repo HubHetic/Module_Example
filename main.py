@@ -1,10 +1,10 @@
-from MyAuthorModule.MyAuthorModule import Author
-from MyBookModule.MyBookModule import Book
+from MyAuthorModule.MyAuthorModule import NewAuthor
+from MyBookModule.MyBookModule import NewBook
 
 
 
-author = Author('J. K. Rowling').get_name()
-book = Book('Harry Potter').get_title()
+author = NewAuthor('J. K. Rowling').get_name()
+book = NewBook('Harry Potter').get_title()
 
 
 print(book, ' was written by ', author)
